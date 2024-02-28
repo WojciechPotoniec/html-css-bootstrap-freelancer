@@ -16,6 +16,10 @@
 .img-content {
     max-width: 200px;
 }
+.card img:hover:after {
+    content: "\f055";
+    display: block;
+}
 .wp-border {
     width: 100px;
     border-bottom: 3px solid white;
@@ -23,4 +27,35 @@
 .wp-border-contrast {
     width: 100px;
     border-bottom: 3px solid #2c3e50;
+}
+.wp-bg-color {
+    background-color: #1abc9c;
+}
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+textarea {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.footer-top .container a, 
+#contact .container button a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    position: relative;
+}
+.square i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
