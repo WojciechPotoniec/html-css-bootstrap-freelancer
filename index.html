@@ -16,7 +16,7 @@
 <body>
 
     <!-- begin header -->
-    <header class="bg-dark ">
+    <header class="bg-dark fixed-top">
         <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container text-uppercase">
                 <a class="navbar-brand" href="#">Start Bootstrap</a>
@@ -42,7 +42,7 @@
     </header>
 
     <!-- begin main -->
-    <main>
+    <main class="mt-4">
         <section class="odd text-uppercase py-5" id="hero">
             <div class="container m-auto text-light text-uppercase">
                 <div class="img-content mx-auto">
@@ -51,7 +51,7 @@
                 <h1 class="text-center">Start Bootstrap</h1>
                 <div class="d-flex align-items-center justify-content-center">
                     <div class="wp-border"></div>
-                    <i class="fa-solid fa-star text-light ms-3 me-3"></i>
+                    <i class="fa-solid fa-star fs-4 text-light ms-3 me-3"></i>
                     <div class="wp-border"></div>
                 </div>
                 <div class="d-flex justify-content-center mt-2">
@@ -64,38 +64,44 @@
                 <h2 class="text-uppercase text-center">Portfolio</h2>
                 <div class="d-flex align-items-center justify-content-center pb-3">
                     <div class="wp-border-contrast"></div>
-                    <i class="fa-solid fa-star ms-3 me-3"></i>
+                    <i class="fa-solid fa-star fs-4 ms-3 me-3"></i>
                     <div class="wp-border-contrast"></div>
                 </div>
                 <div class="row gy-3">
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="/img/cabin.png" class="img-fluid rounded-3" alt="Cabin">
+                            <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="/img/cake.png" class="img-fluid rounded-3" alt="Cake">
+                            <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="/img/circus.png" class="img-fluid rounded-3" alt="Circus">
+                            <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="/img/game.png" class="img-fluid rounded-3" alt="Game">
+                            <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="/img/safe.png" class="img-fluid rounded-3" alt="Safe">
+                            <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
                             <img src="/img/submarine.png" class="img-fluid rounded-3" alt="Submarine">
+                            <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                 </div>
@@ -106,7 +112,7 @@
                 <h2 class="text-uppercase text-center">About</h2>
                 <div class="d-flex align-items-center justify-content-center pb-3">
                     <div class="wp-border"></div>
-                    <i class="fa-solid fa-star ms-3 me-3"></i>
+                    <i class="fa-solid fa-star fs-4 ms-3 me-3"></i>
                     <div class="wp-border"></div>
                 </div>
                 <div class="d-sm-flex">
@@ -135,11 +141,11 @@
                     <h2 class="text-uppercase text-center">Contact Me</h2>
                     <div class="d-flex align-items-center justify-content-center pb-3">
                         <div class="wp-border-contrast"></div>
-                        <i class="fa-solid fa-star ms-3 me-3"></i>
+                        <i class="fa-solid fa-star fs-4 ms-3 me-3"></i>
                         <div class="wp-border-contrast"></div>
                     </div>
                 </div>
-                <div>
+                <div class="mx-5">
                     <form class="mb-3">
                         <input type="text" class="wp-form" placeholder="Name">
                     </form>
@@ -152,11 +158,10 @@
                     <form class="mb-3">
                         <textarea rows="4" placeholder="Message"></textarea>
                     </form>
-                    <button type="button" class="btn btn-success wp-bg-color">
-                        <a href="#" class="text-light">Send</a>
+                    <button type="button" class="btn btn-success wp-bg-color text-light">
+                        Send
                     </button>
                 </div>
-            </div>
             </div>
         </section>
     </main>
@@ -164,15 +169,15 @@
     <!-- begin footer -->
     <footer>
         <div class="footer-top bg-secondary">
-            <div class="container text-light text-center d-flex justify-content-between py-5">
-                <div>
+            <div class="container text-light text-center d-sm-flex justify-content-between">
+                <div class="py-4">
                     <h4 class="text-uppercase">location</h4>
                     <span>2215 John Daniel Drive Clark, MO</span><br>
                     <span>54243</span>
                 </div>
-                <div>
-                <h4 class="text-uppercase">around the web</h4>
-                    <div class="d-flex">
+                <div class="py-4 mx-sm-5">
+                    <h4 class="text-uppercase">around the web</h4>
+                    <div class="d-flex justify-content-center">
                         <div class="square rounded-circle me-3">
                             <i class="fa-brands fa-facebook-f"></i>
                         </div>
@@ -187,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="py-4">
                     <h4 class="text-uppercase">about freelancer</h4>
                     <span>Freelance is a free to use, open source <br> Bootstrap theme created by <a href="#">Start <br>
                             Bootstrap.</a></span>
