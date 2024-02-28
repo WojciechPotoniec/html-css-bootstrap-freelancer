@@ -13,3 +13,14 @@
 #portfolio-nav a.nav-link:hover {
     color: #1abc9c;
 }
+.avatar-img {
+    max-width: 200px;
+}
+.wp-border {
+    width: 100px;
+    border-bottom: 3px solid white;
+}
+.wp-border-contrast {
+    width: 100px;
+    border-bottom: 3px solid #2c3e50;
+}
