@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    scroll-margin-bottom: 180px;
+}
 .wp-debug{
     border: 1px solid red;
 }
@@ -78,4 +82,8 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+#portfolio {
+    scroll-margin-bottom: 180px;
+
 }

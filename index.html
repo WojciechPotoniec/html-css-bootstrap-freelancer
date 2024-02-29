@@ -27,13 +27,13 @@
                 <div class="collapse navbar-collapse" id="portfolio-nav">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+                            <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">About</a>
+                            <a class="nav-link" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">contact</a>
+                            <a class="nav-link" aria-current="page" href="#contact">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -70,37 +70,37 @@
                 <div class="row gy-3">
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
-                            <img src="/img/cabin.png" class="img-fluid rounded-3" alt="Cabin">
+                            <img src="img/cabin.png" class="img-fluid rounded-3" alt="Cabin">
                             <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
-                            <img src="/img/cake.png" class="img-fluid rounded-3" alt="Cake">
+                            <img src="img/cake.png" class="img-fluid rounded-3" alt="Cake">
                             <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
-                            <img src="/img/circus.png" class="img-fluid rounded-3" alt="Circus">
+                            <img src="img/circus.png" class="img-fluid rounded-3" alt="Circus">
                             <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
-                            <img src="/img/game.png" class="img-fluid rounded-3" alt="Game">
+                            <img src="img/game.png" class="img-fluid rounded-3" alt="Game">
                             <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
-                            <img src="/img/safe.png" class="img-fluid rounded-3" alt="Safe">
+                            <img src="img/safe.png" class="img-fluid rounded-3" alt="Safe">
                             <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="card">
-                            <img src="/img/submarine.png" class="img-fluid rounded-3" alt="Submarine">
+                            <img src="img/submarine.png" class="img-fluid rounded-3" alt="Submarine">
                             <div><i class="fa-solid fa-circle-plus add-img"></i></div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                     <i class="fa-solid fa-star fs-4 ms-3 me-3"></i>
                     <div class="wp-border"></div>
                 </div>
-                <div class="d-sm-flex">
+                <div class="d-md-flex">
                     <p class="mx-5">
                         Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
                         complete source files including html, css, and JavaScript as well as optional less
@@ -146,18 +146,21 @@
                     </div>
                 </div>
                 <div class="mx-5">
-                    <form class="mb-3">
-                        <input type="text" class="wp-form" placeholder="Name">
-                    </form>
-                    <form class="mb-3">
-                        <input type="email" placeholder="Email@gmail.com">
-                    </form>
-                    <form class="mb-3">
-                        <input type="tel" placeholder="Phone number">
-                    </form>
-                    <form class="mb-3">
+                    <div class="mb-3">
+                        <label for="name" class="wp-form">Name</label>
+                        <input type="text" class="wp-form" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="wp-form">Email</label>
+                        <input type="email" class="wp-form" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="number" class="wp-form">Phone Number</label>
+                        <input type="tel" class="wp-form" id="number">
+                    </div>
+                    <div class="mb-3">
                         <textarea rows="4" placeholder="Message"></textarea>
-                    </form>
+                    </div>
                     <button type="button" class="btn btn-success wp-bg-color text-light">
                         Send
                     </button>
@@ -169,7 +172,7 @@
     <!-- begin footer -->
     <footer>
         <div class="footer-top bg-secondary">
-            <div class="container text-light text-center d-sm-flex justify-content-between">
+            <div class="container text-light text-center d-md-flex justify-content-between">
                 <div class="py-4">
                     <h4 class="text-uppercase">location</h4>
                     <span>2215 John Daniel Drive Clark, MO</span><br>
